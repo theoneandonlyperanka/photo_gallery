@@ -1,0 +1,51 @@
+body {
+    padding-top: 100px;
+    margin: 0px;
+    text-align:center;
+    background-image:url('https://i.pinimg.com/originals/82/a6/6c/82a66c6b69a61564494a682e4fb0d704.jpg');
+}
+
+.menu {
+    list-style:none;
+    font-family:forte;
+    position:fixed;
+    top:10px;
+    left:100px;
+    right:50px;
+    z-index:9999999;
+    cursor:pointer;
+}
+
+.links {
+    float:left;
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.links:hover{
+    background-color: aqua;
+    color:black;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+.img2{
+    width: 300px;
+    height: 300px;
+}
+
+.item img{
+    width: 300px;
+    height: 200px;
+}
+
+#home img{
+    width: 1000px;
+    height: 800px;
+}

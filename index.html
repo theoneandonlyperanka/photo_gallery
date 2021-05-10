@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+    </script>
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="links"><a href="#home">Home</a></li>
+        <li class="links"><a href="#grids">Grid View</a></li>
+        <li class="links"><a href="#slides">Slide View</a></li>
+    </ul>
+    <section id="home">
+        <h1>Photo Gallery</h1>
+        <div class="line"></div>
+        <img src="flowers%20copy.gif">
+    </section>
+
+    <section id="grids">
+        <h2>Grid Gallery</h2>
+        <br>
+        <div class="row">
+            <img class="img2" src="blue%20copy.jpg">
+            <img class="img2" src="Orange%20copy.png">
+            <img class="img2" src="purple%20copy.jpg">
+            <img class="img2" src="Red%20rose%20copy.jpg">
+            <img class="img2" src="White%20copy.jpg">
+            <img class="img2" src="Pink%20tulip%20copy.jpg">
+            <img class="img2" src="yellow%20copy.jpg">
+        </div>
+    </section>
+
+    <section id="slides">
+        <h2>Slide Gallery</h2>
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img class="img-responsive" src="blue%20copy.jpg">
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="img-responsive" src="Orange%20copy.png">
+                    </center>
+                    </div>
+                    
+
+                <div class="item">
+                    <center>
+                        <img src="Pink%20tulip%20copy.jpg" class="img-responsive">
+                    </center>
+                </div>
+
+
+                <div class="item">
+                    <center>
+                        <img src="purple%20copy.jpg" class="img-responsive">
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img src="Red%20rose%20copy.jpg" class="img-responsive">
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img src="White%20copy.jpg" class="img-responsive">
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img src="yellow%20copy.jpg" class="img-responsive">
+                    </center>
+                </div>
+    
+
+
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+
+
+
+    </section>
+</body>
+
+</html>
